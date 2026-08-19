@@ -1,0 +1,168 @@
+{
+    "name": "intuites/staffing-accounting",
+    "description": "Staffing Accounting Management System - plain PHP + Supabase Postgres",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "phpoffice/phpspreadsheet": "*",
+        "dompdf/dompdf": "*",
+        "guzzlehttp/guzzle": "*",
+        "phpmailer/phpmailer": "*"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../libsrc/phpspreadsheet",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/dompdf",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/guzzle",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/phpmailer",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/composer-pcre",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/zipstream",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/markbaker-complex",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/markbaker-matrix",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/psr-simple-cache",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/psr-http-client",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/psr-http-factory",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/psr-http-message",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/html5",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/php-font-lib",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/php-svg-lib",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/css-parser",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/guzzle-promises",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/guzzle-psr7",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/getallheaders",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/deprecation-contracts",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "path",
+            "url": "../libsrc/polyfill-php80",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "packagist.org": false
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "allow-plugins": false
+    }
+}
